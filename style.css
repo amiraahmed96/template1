@@ -1,0 +1,320 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+/*start main photo*/
+.photo
+{
+    background: url(images/1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 90%;
+    width: 100%;
+}
+.photo .photo1
+{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    min-height: 90%;
+    color: white;
+}
+.photo .photo1 .heading
+{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+/*end main photo*/
+
+/*start nav-bar*/
+.nav-bar ul
+{
+    list-style-type: none;
+}
+.nav-bar ul li
+{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.nav-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul li a:hover
+{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+    transition: all 0.5s ease-in-out;
+    padding: 15px 0px;
+}
+/*end nav-bar*/
+/*start buttons*/
+.buttons
+{
+    margin-left: 100px;
+}
+.buttons a
+{
+    text-decoration: none;
+}
+.btn
+{
+    border: 2px solid orangered;
+    padding: 10px 5px;
+    color: orangered;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+.btn-half
+{
+    background-color: orangered;
+    color: white;
+}
+.btn-fall:hover
+{
+     background-color: orangered;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+/*end buttons*/
+
+/*start our feature*/
+.features h3
+{
+    margin-top: 50px;
+}
+h3:after
+{
+    width: 100px;
+    height: 2px;
+    background-color: orangered;
+    margin: 0 auto;
+    display: block;
+    content: " ";
+    margin-top: 30px;
+}
+.features i
+{
+    font-size: 50px;
+    color: orangered;
+    margin-left: 15px;
+}
+.features h4
+{
+    margin-left: 20px;
+}
+.copy
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+.arranging
+{
+    text-align: justify;
+}
+/*end our feature*/
+
+/*start section meals*/
+.meals
+{
+    margin: 30px;
+    margin-top:60px;
+    overflow: hidden;
+}
+.meals ul
+{
+    list-style-type: none;
+    margin: 0;
+}
+.meals ul li
+{
+    width: 25%;
+    float: left;
+    margin: 0;
+}
+.meals ul img
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}
+.meals ul img:hover
+{
+    transform: scale(1.05);
+    transition: all 0.5s ease-in;
+}
+.meal-showcase
+{
+    margin-left: 0;
+}
+.meal-photo
+{
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+/*start section mobile*/
+
+.mobile .im img
+{
+    width: 40%;
+    margin-left: 50%;
+}
+/*end section mobile*/
+.work-step
+{
+    margin-top: 50px;
+}
+.work-step div
+{
+    border: 1px solid orangered;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.work-step img
+{
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+/*end section meals*/
+
+/*start section cities*/
+
+.cities img
+{
+    width: 100%;
+    margin-top: 50px;
+}
+.cities i
+{
+    color: orangered;
+}
+/*end section cities*/
+
+/*start testmonials*/
+.testmonials
+{
+    background: url(images/2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 60%;
+    width: 100%;
+    color: white;
+}
+.testmonials h3
+{
+    padding-top: 60px;
+}
+.testmonials .content
+{
+    background-color: rgba(0,0,0,0.6);
+    min-height: 60%;
+    width: 100%;
+}
+.testmonials .content p
+{
+    padding-top: 30px;
+    line-height: 25px;
+}
+.testmonials cite img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.form form , .form textarea
+{
+    margin-top: 30px;
+}
+.form button 
+{
+    height: 46px;
+}
+/*end testmonials*/
+.clear-float
+{
+    clear: both;
+}
+
+
+
+
+
+
+
+                              /*start media quary*/
+
+@media (max-width: 767px) /*mobile & tablite screen*/
+{
+    .nav-bar
+    {
+       width: 70%;
+    }
+    .nav-bar ul
+    {
+        
+    }
+    .nav-bar ul li
+    {
+        clear: both;
+        padding: 0px;
+    }
+    .nav-bar ul li a:hover
+    {
+        border: none;
+    }
+    .photo .photo1 h1
+{
+    
+    display: none;
+}
+    .buttons
+    {
+         margin-left: 70px;
+    }
+    .buttons .btn
+    {
+      margin-top: 20px;
+        width: 120px;
+       
+    }
+    .meals
+    {
+        display: none;
+    }
+    .mobile .im img
+{
+    width: 60%;
+    margin-left: 70%;
+    margin-left: 50px;
+}
+    
+}
+@media (min-width: 768px) and (max-width: 991px) /*small acreen*/
+{
+    
+}
+@media (min-width: 992px) and (max-width: 1199px) /*medium screen*/
+{
+    
+}
+@media (min-width:1200px) /*large screen*/
+{
+    
+}
+
+                         /*end media quary*/
